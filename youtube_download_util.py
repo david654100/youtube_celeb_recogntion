@@ -20,4 +20,4 @@ def downloadPlaylist(playlist_url:str,path:str):
         os.makedirs(path)
     playlist.download_all(path)
 
-
+downloadPlaylist("https://www.youtube.com/watch?v=_JrRUUIMabc&list=PLX_rhFRRlAG7rvt58hkfUB1EcULJRDSII","vids")

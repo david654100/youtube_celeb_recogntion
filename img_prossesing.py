@@ -19,4 +19,3 @@ def vid_splitter(path: str):
 
 
     return rgb_frames
-vid_splitter("videos/DRUNK PAINTING CLASS W OFFLINETV ft LILYPICHU SCARRA POKIMANE FEDMYSTER &amp MORE.mp4")

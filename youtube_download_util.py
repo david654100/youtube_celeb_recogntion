@@ -1,5 +1,5 @@
 from pytube import YouTube
-from pytube import  Playlist
+from pytube import Playlist
 import os
 
 
@@ -15,7 +15,7 @@ def downloadYouTube(video_url:str, path:str):
     yt.download(path)
 
 def downloadPlaylist(playlist_url:str,path:str):
-    playlist = Playlist('https://www.youtube.com/watch?v=58PpYacL-VQ&list=UUd6MoB9NC6uYN2grvUNT-Zg')
+    playlist = Playlist(playlist_url)
     if not os.path.exists(path):
         os.makedirs(path)
     playlist.download_all(path)

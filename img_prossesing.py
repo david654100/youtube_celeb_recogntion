@@ -19,3 +19,4 @@ def vid_splitter(path: str):
 
 
     return rgb_frames
+ 
